@@ -18,7 +18,7 @@ pipeline {
 
         stage('Build Artifact') {
             steps {
-                archiveArtifacts artifacts:  'system_*.txt', fingerprint: true
+                archiveArtifacts artifacts:  'system_report*.txt', fingerprint: true
             }
         }
     }
