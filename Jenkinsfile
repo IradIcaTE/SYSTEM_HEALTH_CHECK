@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pulling repo') {
             steps {
-                git url: '', branch: 'main'
+                git url: 'https://github.com/IradIcaTE/SYSTEM_HEALTH_CHECK.git', branch: 'main'
             }
         }
 
